@@ -1,6 +1,6 @@
 # c0deaddict Charts Repository
 
-Welcome to the c0deaddict charts repository. All charts are in the charts directory.
+Welcome to the c0deaddict's Helm charts repository. All charts are in the charts directory.
 
 ## Adding the chart Repository
 
