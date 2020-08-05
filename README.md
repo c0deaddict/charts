@@ -1,18 +1,14 @@
-# Oteemo Charts Repository
+# c0deaddict Charts Repository
 
-Welcome to the oteemo charts repository. All charts are in the charts directory.
+Welcome to the c0deaddict charts repository. All charts are in the charts directory.
 
 ## Adding the chart Repository
 
-`helm repo add oteemocharts https://oteemo.github.io/charts`
+`helm repo add c0deaddict https://c0deaddict.github.io/charts`
 
 ## Contributing
 
 Feel free to fork our repo and create a pull request with any new features or bug fixes.
-
-## Contacting us
-
-For issues or concerns, please fill out an issue or email us at charts@oteemo.com
 
 ## How It Works
 
