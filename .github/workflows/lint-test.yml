@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
 
       - name: Run chart-testing (lint)
         id: lint
-        uses: helm/chart-testing-action@v1.0.0-rc.2
+        uses: helm/chart-testing-action@v1.0.0
         with:
           command: lint
           config: lint.yaml
@@ -23,7 +23,7 @@ jobs:
         if: steps.lint.outputs.changed == 'true'
 
       - name: Run chart-testing (install)
-        uses: helm/chart-testing-action@v1.0.0-rc.2
+        uses: helm/chart-testing-action@v1.0.0
         with:
           command: install
           config: test.yaml
